@@ -2,6 +2,12 @@
 
 Buka `dist/index.html` dengan browser. Satu file ini sudah memuat seluruh tampilan, gaya, dan interaksi, tanpa pemasangan aplikasi atau koneksi internet.
 
+## Publikasi GitHub Pages
+
+Sumber publikasi: branch `main`, folder `/ (root)`. Halaman `index.html` di root membuka demo pada `dist/index.html`. Berkas `.nojekyll` memastikan berkas statis dilayani langsung.
+
+Aktivasi dilakukan melalui pengaturan GitHub Pages pada repositori. Ketersediaan Pages untuk repositori privat bergantung pada paket akun GitHub.
+
 ## Cara mencoba
 
 1. Peran **Pengelola gedung**: lihat dashboard, cari unit, tambah unit, buat tagihan, dan verifikasi pembayaran.
