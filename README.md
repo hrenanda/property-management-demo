@@ -1,4 +1,4 @@
-# Huni — Demo Property Management
+# Hunilink — Demo Property Management
 
 Demo publik: [hrenanda.github.io/property-management-demo](https://hrenanda.github.io/property-management-demo/).
 
@@ -10,9 +10,9 @@ Kunjungan pertama dimulai dari halaman login. Pilih kartu peran untuk mengisi ak
 
 | Peran | Email demo | Kata sandi | Halaman awal |
 | --- | --- | --- | --- |
-| Pengelola | pengelola@huni.demo | demo123 | Ringkasan operasional |
-| Penghuni | penghuni@huni.demo | demo123 | Portal unit A-1205 |
-| Vendor | vendor@huni.demo | demo123 | Pekerjaan PT Elevasi Teknik |
+| Pengelola | pengelola@hunilink.demo | demo123 | Ringkasan operasional |
+| Penghuni | penghuni@hunilink.demo | demo123 | Portal unit A-1205 |
+| Vendor | vendor@hunilink.demo | demo123 | Pekerjaan PT Elevasi Teknik |
 
 Login memvalidasi akun contoh dan menyimpan peran sesi pada tab browser. Kata sandi tidak disimpan. Muat ulang mempertahankan sesi; tombol **Keluar** menghapus sesi dan mengembalikan halaman login. Untuk mencoba peran lain, keluar dan pilih akun berikutnya. Logout tidak menghapus data simulasi.
 

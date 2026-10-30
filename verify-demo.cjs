@@ -22,9 +22,9 @@ vm.runInContext(script, context);
 vm.runInContext(`
   assert.equal(session,null,'first visit starts at login');
   assert.equal($('#appview').hidden,true);
-  assert($('#loginview').innerHTML.includes('Selamat datang di Huni.'));
+  assert($('#loginview').innerHTML.includes('Selamat datang di Hunilink.'));
   const eventFor=target=>({preventDefault(){},target});
-  submitLogin(eventFor({email:'pengelola@huni.demo',password:'salah'}));
+  submitLogin(eventFor({email:'pengelola@hunilink.demo',password:'salah'}));
   assert.equal(session,null,'wrong password must not create a session');
   assert.equal($('#loginerror').hidden,false);
   for(const r of Object.keys(accounts)) {
